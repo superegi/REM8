@@ -1,0 +1,71 @@
+%\title{Reporte ingreso no autorizado sistema eSAMU}
+\documentclass{article}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage[utf8]{inputenc}
+
+%\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+%% Sets page size and margins
+\usepackage[letterpaper,top=3.5cm,bottom=2.5cm,left=3cm,right=3cm,marginparwidth=1.75cm, headsep = 70pt]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{booktabs, makecell}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[hang, small,up,textfont=it,up]{caption} 
+\usepackage{fancyhdr}
+\usepackage{authblk}
+\usepackage{csquotes}    %citas
+
+\renewenvironment{quote}
+  {\small\list{}{\rightmargin=3.5cm \leftmargin=3.5cm}%
+   \item\relax}
+  {\endlist}
+  
+
+%cabecera y pies
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\includegraphics[width=0.12\textwidth]{SAMU_e.png}}
+\lhead{
+Indicadores registros eSAMU \\ 
+Dr E. Céspedes, Tecnologías SAMU \\
+SAMU V Región}
+\rfoot{P\'agina \thepage}
+
+% titulo documento
+\title{REM 8}
+\author[1]{Dr E Céspedes}
+\affil[1]{Tecnologías SAMU Viña del Mar}
+\date{\today}
+
+
+\begin{document}
+\maketitle
+
+
+\section{Introducción}
+El sistema informático utilizado actualmente por el servicio de atención médica de urgencia (SAMU), fue un desarrollo del departamento de informática del Servicio de Salud Viña del Mar Quillota (SSVQ). El sistema es una plataforma diseñada para ser multipropósito, donde están incluídos varios módulos, uno de ellos es específicamente el que presta servios a SAMU en su día a día, llamado eSAMU. eSAMU se encuentra en la web  \url{http://mi.ssvq.cl}, disponible desde cualquier sito con conexión a internet, pero con clave de usuario única y personal.
+
+
+\begin{table}[H]
+\centering
+%\input{../calidad_registros/Tabla2_2.txt}
+\caption{Nombre de los funcionarios que presentan
+mayor frecencias relativas de REMs categorizados cuando tenían indicación de despacho de ambulancia.
+ Se presenta la cantidad de REMs que cumplen el criterio y el porcentaje de acierto.}
+\end{table}
+
+
+%%% regulación registrada
+
+
+
+\end{document}
