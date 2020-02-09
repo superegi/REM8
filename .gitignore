@@ -1,0 +1,16 @@
+*.xls
+*.xlsx
+*.pkl
+*.log
+*.toc
+*.gz
+*.out
+*.pdf
+*.fdb*
+*.aux
+*.ipynb_checkpoints
+.Rhistory
+Informe.txt
+REM 8 CR 2020.ods
+informe/Informe.fls
+

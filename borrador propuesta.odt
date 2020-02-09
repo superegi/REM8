@@ -1,0 +1,50 @@
+%\title{Resultados}
+\documentclass{article}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage[utf8]{inputenc}
+
+%\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+%% Sets page size and margins
+\usepackage[letterpaper,top=3.5cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm, headsep = 70pt]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{booktabs, makecell}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[hang, small,up,textfont=it,up]{caption} 
+\usepackage{fancyhdr}
+\usepackage{subcaption}
+
+
+%cabecera y pies
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\includegraphics[width=0.12\textwidth]{SAMU_e.png}}
+\lhead{
+Dr E. Céspedes G., Tecnologías SAMU \\
+SAMU V Región \\
+Octubre 2019}
+\rfoot{P\'agina \thepage}
+
+% titulo documento
+\title{Perfil de la atención de urgencia en contexto de manifestaciones ciudadanas masivas }
+\author{Dr E Céspedes-González}
+\date{Octubre 2017}
+
+
+\begin{document}
+\maketitle
+
+\section{Introducción}
+
+La medicina de urgencia concentra entre otras ramas la medicina de desastres o los comportamientos poblacionales en relación a la salud de grandes movimientos de personas, migraciones, situaciones de guerra, etc....
+
+\end{document}
