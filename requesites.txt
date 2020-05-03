@@ -1,0 +1,16 @@
+ezodf
+lxml
+xlrd
+pandas
+numpy
+matplotlib
+datetime 
+babel
+pyexcel_ods
+scipy
+statsmodels
+timeboard
+matplotlib_venn
+seaborn
+sklearn
+
