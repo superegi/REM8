@@ -1,0 +1,85 @@
+Este es un inforque que considera el mes de October. En el territorio de Quilpué.
+
+Sección K: INTERVENCIONES PRE HOSPITALARIAS (SAMU)
+Se asume que todas las intervenciones críticas son realizadas por móviles avanzados y que las no-críticas por móviles básicos. Esto determina que las casillas de las prestaciones críticas tengan valores de cero para móviles básicos y las prestaciones no-críticas tengan valores cero para móviles avanzados. 
+ 
+
+Tiempo llegada al lugar  Menos 20 min  20 a 40 min  Más 40 min  Total
+Tipo Móvil                                                           
+Avanzado                            4            0          77    124
+Básico                              9            0         108    164
+Total                              14            0         236    362
+
+ 
+
+ Sección L:  TRASLADOS PRIMARIOS A UNIDADES DE URGENCIA
+ 
+Categoría Vehículo  Tipo móvil
+samu                Avanzado       0
+                    Básico         0
+enrutado            Avanzado      28
+                    Básico        63
+nosamu              Avanzado       0
+                    Básico         0
+Name: Id, dtype: int64
+
+ 
+
+ Sección M: TRASLADO SECUNDARIO (Desde un Establecimiento a Otro)
+ 
+Categoría Vehículo  Tipo móvil
+samu                Avanzado       0
+                    Básico         0
+enrutado            Avanzado      19
+                    Básico         9
+nosamu              Avanzado       0
+                    Básico         0
+Name: Id, dtype: int64
+
+ 
+
+ Sección N: TRASLADO SECUNDARIO (Desde un Establecimiento a Otro)
+Es una tabla larga, por lo que se divide en varios espacios 
+Género   Masc  Feme
+Patol              
+SCA         4     5
+PCR         1     2
+PoliTMT    20    11
+Otros     135   163
+ -----------------------------------------------------------------
+Edad    [0, 5)      [5, 10) [10, 15)      [15, 20)      [20, 25)
+Género    Masc Feme    Feme     Masc Feme     Masc Feme     Masc
+Patol                                                           
+SCA          0    0       0        0    0        0    0        0
+PCR          0    0       0        0    0        0    0        0
+PoliTMT      0    0       0        0    1        2    0        3
+Otros        2    1       2        2    1        5    9        3
+ -----------------------------------------------------------------
+Edad    [20, 25) [25, 30)      [30, 35)      [35, 40)      [40, 45)
+Género      Feme     Masc Feme     Masc Feme     Masc Feme     Masc
+Patol                                                              
+SCA            0        1    0        0    0        0    0        0
+PCR            0        0    0        0    0        0    0        0
+PoliTMT        0        2    3        3    1        0    0        1
+Otros          7        1    8        5    4        6    4        6
+ -----------------------------------------------------------------
+Edad    [40, 45) [45, 50)      [50, 55)      [55, 60)      [60, 65)
+Género      Feme     Masc Feme     Masc Feme     Masc Feme     Masc
+Patol                                                              
+SCA            0        1    0        0    0        0    0        0
+PCR            0        0    0        1    1        0    0        0
+PoliTMT        2        1    0        3    1        2    0        0
+Otros          4        8    3        5   14       14   13       13
+ -----------------------------------------------------------------
+Edad    [60, 65) [65, 70)      [70, 75)      [75, 80)      [80, 85)     
+Género      Feme     Masc Feme     Masc Feme     Masc Feme     Masc Feme
+Patol                                                                   
+SCA            2        0    1        1    0        0    0        0    0
+PCR            0        0    0        0    0        0    0        0    1
+PoliTMT        1        2    0        1    0        0    0        0    0
+Otros          5       15   22        7   11       14   15        9   22
+ -----------------------------------------------------------------
+
+ 
+
+Fin informe REM 8
