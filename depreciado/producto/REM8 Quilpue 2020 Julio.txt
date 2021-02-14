@@ -1,0 +1,85 @@
+Este es un inforque que considera el mes de July. En el territorio de Quilpué.
+
+Sección K: INTERVENCIONES PRE HOSPITALARIAS (SAMU)
+Se asume que todas las intervenciones críticas son realizadas por móviles avanzados y que las no-críticas por móviles básicos. Esto determina que las casillas de las prestaciones críticas tengan valores de cero para móviles básicos y las prestaciones no-críticas tengan valores cero para móviles avanzados. 
+ 
+
+Tiempo llegada al lugar  Menos 20 min  20 a 40 min  Más 40 min  Total
+Tipo Móvil                                                           
+Avanzado                            0            1          85    118
+Básico                              4            0         179    313
+Total                               4            1         322    533
+
+ 
+
+ Sección L:  TRASLADOS PRIMARIOS A UNIDADES DE URGENCIA
+ 
+Categoría Vehículo  Tipo móvil
+samu                Avanzado        0
+                    Básico          0
+enrutado            Avanzado       66
+                    Básico        118
+nosamu              Avanzado        0
+                    Básico          0
+Name: Id, dtype: int64
+
+ 
+
+ Sección M: TRASLADO SECUNDARIO (Desde un Establecimiento a Otro)
+ 
+Categoría Vehículo  Tipo móvil
+samu                Avanzado       0
+                    Básico         0
+enrutado            Avanzado      17
+                    Básico        93
+nosamu              Avanzado       0
+                    Básico         0
+Name: Id, dtype: int64
+
+ 
+
+ Sección N: TRASLADO SECUNDARIO (Desde un Establecimiento a Otro)
+Es una tabla larga, por lo que se divide en varios espacios 
+Género   Masc  Feme
+Patol              
+SCA         6     9
+PCR         3     0
+PoliTMT    11    13
+Otros     255   227
+ -----------------------------------------------------------------
+Edad    [0, 5)      [5, 10)      [10, 15)      [15, 20)     
+Género    Masc Feme    Masc Feme     Masc Feme     Masc Feme
+Patol                                                       
+SCA          0    0       0    0        0    0        0    0
+PCR          0    0       0    0        0    0        0    0
+PoliTMT      0    0       0    0        0    0        0    1
+Otros        5    3       6    2        4    2        5    7
+ -----------------------------------------------------------------
+Edad    [20, 25)      [25, 30)      [30, 35)      [35, 40)     
+Género      Masc Feme     Masc Feme     Masc Feme     Masc Feme
+Patol                                                          
+SCA            0    0        1    0        0    0        0    1
+PCR            0    0        0    0        0    0        0    0
+PoliTMT        1    1        0    0        0    1        4    0
+Otros          6    2       11    2        9    4        3    4
+ -----------------------------------------------------------------
+Edad    [40, 45)      [45, 50)      [50, 55)      [55, 60)     
+Género      Masc Feme     Masc Feme     Masc Feme     Masc Feme
+Patol                                                          
+SCA            0    0        1    0        1    1        0    0
+PCR            0    0        0    0        0    0        1    0
+PoliTMT        1    1        1    3        1    2        0    1
+Otros         19    7        6    8        7   17       14   17
+ -----------------------------------------------------------------
+Edad    [60, 65)      [65, 70)      [70, 75)      [75, 80)      [80, 85)     
+Género      Masc Feme     Masc Feme     Masc Feme     Masc Feme     Masc Feme
+Patol                                                                        
+SCA            0    0        0    1        2    0        1    2        0    1
+PCR            2    0        0    0        0    0        0    0        0    0
+PoliTMT        0    0        0    0        0    0        1    2        0    0
+Otros         21    7       18   19       19   26       24   33       22   33
+ -----------------------------------------------------------------
+
+ 
+
+Fin informe REM 8
