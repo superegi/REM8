@@ -1,0 +1,84 @@
+Este es un inforque que considera el mes de Septiembre. En el territorio de SSVQ.
+ 
+
+Sección K: INTERVENCIONES PRE HOSPITALARIAS (SAMU)
+Se asume que todas las intervenciones críticas son realizadas por móviles avanzados y que las no-críticas por móviles básicos. Esto determina que las casillas de las prestaciones críticas tengan valores de cero para móviles básicos y las prestaciones no-críticas tengan valores cero para móviles avanzados. 
+ 
+
+Tiempo llegada al lugar  Menos 20 min  20 a 40 min  Más 40 min  Total
+Tipo Móvil                                                           
+Avanzado                            5            0         734   1144
+Básico                             34            2         901   1668
+Total                              44            3        1806   4497
+
+ 
+
+ Sección L:  TRASLADOS PRIMARIOS A UNIDADES DE URGENCIA
+ 
+Categoría Vehículo  Tipo móvil
+samu                Avanzado      402
+                    Básico        423
+enrutado            Avanzado      139
+                    Básico        293
+nosamu              Avanzado        2
+                    Básico          7
+Name: Id, dtype: int64
+
+ 
+
+ Sección M: TRASLADO SECUNDARIO (Desde un Establecimiento a Otro)
+ 
+Categoría Vehículo  Tipo móvil
+samu                Avanzado      168
+                    Básico        179
+enrutado            Avanzado       53
+                    Básico        248
+Name: Id, dtype: int64
+
+ 
+
+ Sección N: TRASLADO SECUNDARIO (Desde un Establecimiento a Otro)
+Es una tabla larga, por lo que se divide en varios espacios 
+Género   Masc  Feme
+Patol              
+SCA        53    50
+PCR        18     5
+PoliTMT   223   207
+Otros    1696  2025
+ -----------------------------------------------------------------
+Edad    [0, 5)      [5, 10)      [10, 15)      [15, 20)     
+Género    Masc Feme    Masc Feme     Masc Feme     Masc Feme
+Patol                                                       
+SCA          0    0       0    0        0    0        3    0
+PCR          2    0       2    0        0    0        0    0
+PoliTMT      7    0      11    8       11   11       15   13
+Otros       48   42      26   14       62   28       64   61
+ -----------------------------------------------------------------
+Edad    [20, 25)      [25, 30)      [30, 35)      [35, 40)     
+Género      Masc Feme     Masc Feme     Masc Feme     Masc Feme
+Patol                                                          
+SCA            3    1        3    3        3    2        1    0
+PCR            1    0        0    0        0    0        0    0
+PoliTMT       14   13       14   28       35   37       14    8
+Otros         63   62       62   85       72   63       57   69
+ -----------------------------------------------------------------
+Edad    [40, 45)      [45, 50)      [50, 55)      [55, 60)     
+Género      Masc Feme     Masc Feme     Masc Feme     Masc Feme
+Patol                                                          
+SCA            5    3        5    5        2    2        6    0
+PCR            1    0        0    0        1    0        2    1
+PoliTMT       15   16        4    4       17   12       19   14
+Otros         66   52       62   83      101   90       86  112
+ -----------------------------------------------------------------
+Edad    [60, 65)      [65, 70)      [70, 75)      [75, 80)      [80, 85)     
+Género      Masc Feme     Masc Feme     Masc Feme     Masc Feme     Masc Feme
+Patol                                                                        
+SCA            6    4        0    4        3    2        8   11        2    2
+PCR            0    0        0    0        0    2        4    1        4    0
+PoliTMT       12   12        3    7       10    8        1    7        5    1
+Otros        104  119      137  104      159  155      163  190      158  221
+ -----------------------------------------------------------------
+
+ 
+
+Fin informe REM 8

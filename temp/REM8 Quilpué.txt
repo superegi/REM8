@@ -1,0 +1,108 @@
+ 
+REM 8
+Este informe abarca desde el 01-01-2021 al 30-01-2021, está basado        en la la/las siguientes comunas ['Quilpué' 'Villa Alemana' 'Viña del Mar'] con [282  31   1] casos cada         una
+
+ 
+
+Sección K: INTERVENCIONES PRE HOSPITALARIAS (SAMU)
+Se asume que todas las intervenciones críticas son realizadas         por móviles avanzados y que las no-críticas por móviles básicos. Esto         determina que las casillas de las prestaciones críticas tengan valores         de cero para móviles básicos y las prestaciones no-críticas tengan         valores cero para móviles avanzados. 
+ 
+
+Tiempo llegada al lugar  Menos 20 min  \
+Tipo Móvil                              
+Básico                              5   
+Avanzado                            5   
+Total                              10   
+
+Tiempo llegada al lugar  20 a 40 min  \
+Tipo Móvil                             
+Básico                             1   
+Avanzado                           0   
+Total                              1   
+
+Tiempo llegada al lugar  Más 40 min  Total  
+Tipo Móvil                                  
+Básico                          133    175  
+Avanzado                        101    135  
+Total                           284    382  
+
+ 
+
+ Sección L:  TRASLADOS PRIMARIOS A UNIDADES DE URGENCIA
+ 
+Categoría Vehículo  Tipo móvil
+samu                Básico         0
+                    Avanzado       0
+enrutado            Básico        53
+                    Avanzado      40
+nosamu              Básico         0
+                    Avanzado       0
+Name: Id, dtype: int64
+
+ 
+
+ Sección M: TRASLADO SECUNDARIO (Desde un Establecimiento a Otro)
+ 
+Categoría Vehículo  Tipo móvil
+samu                Básico         0
+                    Avanzado       0
+enrutado            Básico         8
+                    Avanzado      19
+nosamu              Básico         0
+                    Avanzado       0
+Name: Id, dtype: int64
+
+ 
+
+ Sección N: TRASLADO SECUNDARIO (Desde un Establecimiento a Otro)
+Es una tabla larga, por lo que se divide en varios espacios 
+Edad    [0, 5)     [5, 10)     [10, 15)  \
+Género     Mas Fem     Mas Fem      Mas   
+Patol                                     
+PCR          0   0       0   0        0   
+PoliTMT      0   0       1   0        1   
+SCA          0   0       0   0        0   
+Otros        4   3       2   2        2   
+
+Edad    [15, 20)     [20, 25)     [25, 30)      \
+Género       Mas Fem      Mas Fem      Mas Fem   
+Patol                                            
+PCR            0   0        0   0        0   0   
+PoliTMT        0   0        2   2        3   1   
+SCA            0   0        0   0        0   0   
+Otros          5   5        4   0        5   6   
+
+Edad    [30, 35)     [35, 40)     [40, 45)      \
+Género       Mas Fem      Mas Fem      Mas Fem   
+Patol                                            
+PCR            0   0        0   0        0   0   
+PoliTMT        2   1        2   2        0   2   
+SCA            1   0        0   0        1   0   
+Otros          8   2        1   7        2   1   
+
+Edad    [45, 50)     [50, 55)     [55, 60)      \
+Género       Mas Fem      Mas Fem      Mas Fem   
+Patol                                            
+PCR            0   0        1   0        0   0   
+PoliTMT        0   0        2   2        0   0   
+SCA            0   0        1   1        1   2   
+Otros          8   6        7  14       14  14   
+
+Edad    [60, 65)     [65, 70)     [70, 75)      \
+Género       Mas Fem      Mas Fem      Mas Fem   
+Patol                                            
+PCR            0   0        0   0        0   0   
+PoliTMT        2   0        0   1        0   1   
+SCA            1   0        0   0        1   0   
+Otros         12   5       16   3       19   9   
+
+Edad    [75, 80)     [80, 85)      
+Género       Mas Fem      Mas Fem  
+Patol                              
+PCR            0   0        1   0  
+PoliTMT        0   0        0   1  
+SCA            3   2        0   0  
+Otros         21  22       14  14  
+
+ 
+
